@@ -1,0 +1,22 @@
+== Changelog ==
+
+= 1.0.6 =
+* Added compatibility with Wordpress 6.0.1.
+
+= 1.0.5 =
+* Added compatibility with Wordpress 5.9.
+
+= 1.0.4 =
+* Fixed bug with version 8 of PHP.
+
+= 1.0.3 =
+* Added compatibility with Wordpress 5.7.2.
+
+= 1.0.2 =
+* Added compatibility to show and hide another shortcodes.
+
+= 1.0.1 =
+* Fixed class reference error.
+
+= 1.0.0 =
+* Initial release.

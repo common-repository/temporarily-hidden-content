@@ -1,0 +1,159 @@
+
+#temporarily-hidden-content-admin {
+    padding: 1rem;
+}
+
+@media (min-width: 768px) {
+    #temporarily-hidden-content-admin {
+        padding: 2rem;
+    }
+}
+
+#temporarily-hidden-content-admin figure {
+    display: block;
+    margin: 0 0 1rem 0;
+}
+
+#temporarily-hidden-content-admin figure img {
+    display: block;
+    width: 100%;
+    max-width: 350px;
+}
+
+#temporarily-hidden-content-admin .admin-content {
+    background-color: #fff;
+    border-radius: .25rem;
+    overflow: hidden;
+    box-shadow: 0 0 .5rem rgba(0, 0, 0, .05);
+    border: 1px solid #ddd;
+}
+
+#temporarily-hidden-content-admin .admin-content .admin-block > a {
+    font-weight: 500;
+    display: block;
+    padding: 1rem;
+    border-top: 1px solid #ddd;
+    background: rgb(238, 238, 238);
+    background: linear-gradient(0deg, rgba(238, 238, 238, 1) 0%, rgba(255, 255, 255, 1) 100%);
+}
+
+#temporarily-hidden-content-admin .admin-content .admin-block > a,
+#temporarily-hidden-content-admin .admin-content .admin-block > a:active,
+#temporarily-hidden-content-admin .admin-content .admin-block > a:focus,
+#temporarily-hidden-content-admin .admin-content .admin-block > a:focus:active {
+    color: #000;
+    text-decoration: none;
+    outline: 0;
+    box-shadow: none;
+}
+
+#temporarily-hidden-content-admin .admin-content .admin-block:nth-child(1) > a {
+    border: none;
+}
+
+#temporarily-hidden-content-admin .admin-content .admin-block > a:before {
+    margin-right: .5rem;
+    color: #4499a5;
+    vertical-align: middle!important;
+}
+
+#temporarily-hidden-content-admin .admin-content .admin-block[data-type="settings"] > a:before {
+    content: "\f111";
+}
+
+#temporarily-hidden-content-admin .admin-content .admin-block[data-type="why"] > a:before {
+    content: "\f179";
+}
+
+#temporarily-hidden-content-admin .admin-content .admin-block[data-type="about"] > a:before {
+    content: "\f110";
+}
+
+#temporarily-hidden-content-admin .admin-content .admin-block > div {
+    position: relative;
+    overflow: hidden;
+    padding: 1rem;
+    border-top: 1px solid #ddd;
+}
+
+@media (min-width: 768px) {
+    #temporarily-hidden-content-admin .admin-content .admin-block > div {
+        padding: 2rem;
+    }
+}
+
+#temporarily-hidden-content-admin .admin-content .admin-block.admin-block-hidden > div {
+    display: none;
+}
+
+#temporarily-hidden-content-admin .admin-content .admin-block[data-type="settings"] > div .temphc-settings-loading {
+    position: absolute;
+    display: none;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.75);
+}
+
+#temporarily-hidden-content-admin .admin-content .admin-block[data-type="settings"] > div .temphc-field {
+    border-top: 1px dashed #ccc;
+    padding: 1rem 0;
+}
+
+#temporarily-hidden-content-admin .admin-content .admin-block[data-type="settings"] > div .temphc-field:nth-child(1) {
+    border-top: none;
+    padding-top: 0;
+}
+
+#temporarily-hidden-content-admin .admin-content .admin-block[data-type="settings"] > div .temphc-field:last-of-type {
+    padding-bottom: 0;
+}
+
+#temporarily-hidden-content-admin .admin-content .admin-block[data-type="settings"] > div .temphc-field .temphc-field-info {
+    display: flex;
+    align-items: center;
+}
+
+#temporarily-hidden-content-admin .admin-content .admin-block[data-type="settings"] > div .temphc-field .temphc-field-info label {
+    padding-left: 20px;
+    cursor: default;
+}
+
+#temporarily-hidden-content-admin .admin-content .admin-block > div p {
+    margin: 0 0 .5rem 0;
+}
+
+#temporarily-hidden-content-admin .admin-content .admin-block > div p:last-of-type {
+    margin: 0;
+}
+
+#temporarily-hidden-content-admin .admin-content .admin-block > div a,
+#temporarily-hidden-content-admin .admin-content .admin-block > div a:hover {
+    text-decoration: none;
+    color: #c05c45;
+}
+
+#temporarily-hidden-content-admin .temporarily-hidden-content-admin-footer p {
+    display: block;
+    margin: .5rem 0 0 0;
+    text-align: center;
+}
+
+#temporarily-hidden-content-admin .temporarily-hidden-content-admin-footer p a,
+#temporarily-hidden-content-admin .temporarily-hidden-content-admin-footer p a:hover {
+    text-decoration: none;
+    color: #c05c45;
+}
+
+.settings_page_temporarily-hidden-content #wpcontent {
+    padding-left: 0!important;
+}
+
+.settings_page_temporarily-hidden-content #wpfooter {
+    display: none;
+}
+
+.settings_page_temporarily-hidden-content #wpbody-content {
+    padding-bottom: 0!important;
+}
